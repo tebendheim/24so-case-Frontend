@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import Card from "../Components/Card";
-import { subDays } from "date-fns";
 
 const Home = () => {
   const { eventid } = useParams();
